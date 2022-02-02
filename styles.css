@@ -1,6 +1,7 @@
 body {
   background-color: #0B0D17;
   color: #FFFFFF;
+  font-family: 'Barlow Condensed';
 }
 
 h1 {
@@ -33,4 +34,24 @@ h5 {
   text-transform: uppercase;
   color: #D0D6F9;
   letter-spacing: 4.75px;
+}
+
+nav {
+  font-family: 'Barlow Condensed';
+  font-size: 16px;
+  letter-spacing: 2.7px;
+  text-transform: uppercase;
+}
+
+.subheading-one {
+  font-family: 'Bellefair';
+  font-size: 28px;
+  text-transform: uppercase;
+}
+
+.subheading-two {
+  font-family: 'Barlow Condensed';
+  font-size: 14px;
+  letter-spacing: 2.35px;
+  text-transform: uppercase;
 }
