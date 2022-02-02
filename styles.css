@@ -58,6 +58,20 @@ nav {
   font-size: 16px;
   letter-spacing: 2.7px;
   text-transform: uppercase;
+  position: relative;
+}
+
+hr {
+  width: 40%;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+}
+
+.links {
+  position: absolute;
+  top: 50%;
+  right: 0;
 }
 
 .subheading-one {
@@ -71,4 +85,8 @@ nav {
   font-size: 14px;
   letter-spacing: 2.35px;
   text-transform: uppercase;
+}
+
+.logo {
+  margin: 50px;
 }
