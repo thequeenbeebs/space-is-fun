@@ -1,7 +1,24 @@
 body {
-  background-color: #0B0D17;
   color: #FFFFFF;
   font-family: 'Barlow Condensed';
+}
+
+@media (max-width: 480px) {
+    body {
+        background-image: url('assets/home/background-home-mobile.jpg');
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+    body {
+        background-image: url('assets/home/background-home-tablet.jpg');
+    }
+}
+
+@media (min-width: 1025px) {
+    body {
+	    background-image: url('assets/home/background-home-desktop.jpg');
+   }
 }
 
 h1 {
