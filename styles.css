@@ -85,6 +85,10 @@ a {
   padding: 25px 100px 25px 75px;
 }
 
+.bold {
+  font-weight: 700;
+}
+
 .subheading-one {
   font-family: 'Bellefair';
   font-size: 28px;
