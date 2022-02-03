@@ -113,3 +113,22 @@ a:hover {
 .logo {
   margin: 50px;
 }
+
+.explore {
+  background-color: #FFFFFF;
+  color: #0B0D17;
+  padding: 25px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 200px;
+}
+
+/* THIS IS NOT WORKING LIKE I WANT IT TO */
+.explore:hover {
+  border-color: rgb(255, 255, 255);
+  border-color: rgba(255, 255, 255, 0.1);
+  border-style: solid;
+  border-width: 50px;
+}
