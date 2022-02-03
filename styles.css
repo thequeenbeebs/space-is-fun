@@ -73,7 +73,15 @@ hr {
 }
 
 a {
-  padding: 20px;
+  margin: 20px;
+  padding-bottom: 25px;
+}
+
+a:hover {
+  border-bottom-color: rgb(255, 255, 255);
+  border-bottom-color: rgba(255, 255, 255, 0.5);
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
 }
 
 .links {
