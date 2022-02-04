@@ -60,11 +60,11 @@ h5 {
 }
 
 nav {
+  position: relative;
   font-family: 'Barlow Condensed';
   font-size: 16px;
   letter-spacing: 2.7px;
   text-transform: uppercase;
-  position: relative;
 }
 
 hr {
@@ -79,6 +79,8 @@ hr {
 a {
   margin: 20px;
   padding-bottom: 25px;
+  text-decoration: none;
+  color: inherit;
 }
 
 a:hover {
@@ -106,6 +108,12 @@ p {
 
 .bold {
   font-weight: 700;
+}
+
+.active {
+  border-bottom-color: rgb(255, 255, 255);
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
 }
 
 .subheading-one {
@@ -150,4 +158,11 @@ p {
 .explore:hover {
   box-shadow: 0 0 0 50px rgb(255, 255, 255);
   box-shadow: 0 0 0 50px rgba(255, 255, 255, 0.3);
+}
+
+.sub-nav-text {
+  font-family: 'Barlow Condensed';
+  font-size: 16px;
+  letter-spacing: 2.7px;
+  text-transform: uppercase;
 }
