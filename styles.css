@@ -45,6 +45,7 @@ h2 {
   font-family: 'Bellefair';
   font-size: 100px;
   text-transform: uppercase;
+  font-weight: 400;
 }
 
 h3 {
@@ -63,7 +64,6 @@ h5 {
   font-family: 'Barlow Condensed';
   font-size: 28px;
   text-transform: uppercase;
-  color: #D0D6F9;
   letter-spacing: 4.75px;
   font-weight: 400;
 }
@@ -78,11 +78,14 @@ nav {
 
 hr {
   width: 40%;
+  border-color: rgb(255, 255, 255);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.nav-hr {
   display: inline-block;
   position: absolute;
   top: 45%;
-  border-color: rgb(255, 255, 255);
-  border-color: rgba(255, 255, 255, 0.1);
 }
 
 a {
@@ -106,6 +109,15 @@ p {
   line-height: 30px;
 }
 
+.purple {
+  color: #D0D6F9;
+}
+
+.grey {
+  color: rgb(255, 255, 255);
+  color: rgba(255, 255, 255, 0.5);
+}
+
 .links {
   position: absolute;
   top: 30%;
@@ -117,12 +129,7 @@ p {
 
 .bold {
   font-weight: 700;
-}
-
-.active {
-  border-bottom-color: rgb(255, 255, 255);
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
+  margin-right: 5px;
 }
 
 .subheading-one {
@@ -169,9 +176,34 @@ p {
   box-shadow: 0 0 0 50px rgba(255, 255, 255, 0.3);
 }
 
+.subtitle {
+  margin-left: 150px;
+  margin-bottom: 100px;
+}
+
 .sub-nav-text {
+  position: absolute;
+  top: 300px;
+  left: 60%;
+
+}
+
+.tabs {
+  color: #D0D6F9;
   font-family: 'Barlow Condensed';
   font-size: 16px;
   letter-spacing: 2.7px;
   text-transform: uppercase;
+  padding-bottom: 10px;
+}
+
+.active {
+  color: #FFFFFF;
+  border-bottom-color: rgb(255, 255, 255);
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+}
+
+.planet-img {
+  margin-left: 200px;
 }
