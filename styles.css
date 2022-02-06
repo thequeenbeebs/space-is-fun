@@ -46,6 +46,8 @@ h2 {
   font-size: 100px;
   text-transform: uppercase;
   font-weight: 400;
+  margin-bottom: 25px;
+  margin-top: 50px;
 }
 
 h3 {
@@ -77,7 +79,6 @@ nav {
 }
 
 hr {
-  width: 40%;
   border-color: rgb(255, 255, 255);
   border-color: rgba(255, 255, 255, 0.1);
 }
@@ -86,6 +87,7 @@ hr {
   display: inline-block;
   position: absolute;
   top: 45%;
+  width: 40%;
 }
 
 a {
@@ -136,6 +138,8 @@ p {
   font-family: 'Bellefair';
   font-size: 28px;
   text-transform: uppercase;
+  margin-top: 0;
+  color: #FFFFFF;
 }
 
 .subheading-two {
@@ -143,6 +147,7 @@ p {
   font-size: 14px;
   letter-spacing: 2.35px;
   text-transform: uppercase;
+  margin-bottom: 5px;
 }
 
 .logo {
@@ -185,7 +190,8 @@ p {
   position: absolute;
   top: 300px;
   left: 60%;
-
+  width: 30%;
+  padding-bottom: 100px;
 }
 
 .tabs {
@@ -206,4 +212,14 @@ p {
 
 .planet-img {
   margin-left: 200px;
+}
+
+.destination-text {
+  margin-bottom: 45px;
+}
+
+.right {
+  position: absolute;
+  left: 250px;
+  bottom: 100px;
 }
