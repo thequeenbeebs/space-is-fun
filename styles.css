@@ -260,8 +260,12 @@ p {
 
 .crew-img {
   position: absolute;
-  top: 200px;
+  top: 250px;
   left: 60%;
+}
+
+#hurley {
+  top: 200px;
 }
 
 .dot {
