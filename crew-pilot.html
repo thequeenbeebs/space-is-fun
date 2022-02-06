@@ -3,26 +3,46 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <link rel="stylesheet" href="styles.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Space tourism website</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Bellefair&display=swap" rel="stylesheet">
+  <title>Pilot</title>
 </head>
-<body>
+<body class="crew">
 
-  00 Home
-  01 Destination
-  02 Crew
-  03 Technology
+  <nav>
+    <img src="assets/shared/logo.svg" alt="logo-image" class="logo"/>
+    <hr class="nav-hr"/>
+    <div class="links">
+      <a href="index.html"><span class="bold">00</span> Home</a>
+      <a href="destination-moon.html"><span class="bold">01</span> Destination</a>
+      <a class="active" href="crew-commander.html"><span class="bold">02</span> Crew</a>
+      <a href="technology-vehicle.html"><span class="bold">03</span> Technology</a>
+    </div>
+  </nav>
 
-  02 Meet your crew
+  <h5 class="subtitle"><span class="grey bold">02</span> Meet your crew</h5>
 
-  Pilot
-  Victor Glover
+  <div class="crew-text">
+    <h4 class="grey">Pilot</h4>
+    <h3>Victor Glover</h3>
 
-  Pilot on the first operational flight of the SpaceX Crew Dragon to the 
-  International Space Station. Glover is a commander in the U.S. Navy where 
-  he pilots an F/A-18.He was a crew member of Expedition 64, and served as a 
-  station systems flight engineer. 
+    <p>
+      Pilot on the first operational flight of the SpaceX Crew Dragon to the
+      International Space Station. Glover is a commander in the U.S. Navy where
+      he pilots an F/A-18.He was a crew member of Expedition 64, and served as a
+      station systems flight engineer.
+    </p>
+
+    <a class="dot" href="crew-commander.html">&bull;</a>
+    <a class="dot" href="crew-specialist.html">&bull;</a>
+    <a class="dot active-circle" href="crew-pilot.html">&bull;</a>
+    <a class="dot" href="crew-engineer.html">&bull;</a>
+  </div>
+
+  <img class="crew-img" src="assets/crew/image-victor-glover.png" alt="victor-image"/>
+
 </body>
 </html>
