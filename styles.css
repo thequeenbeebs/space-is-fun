@@ -8,20 +8,29 @@ body {
 }
 
 @media (max-width: 480px) {
-    body {
+    .index {
         background-image: url('assets/home/background-home-mobile.jpg');
+    }
+    .destination {
+      background-image: url('assets/destination/background-destination-mobile.jpg')
     }
 }
 
 @media (min-width: 481px) and (max-width: 1024px) {
-    body {
+    .index {
         background-image: url('assets/home/background-home-tablet.jpg');
+    }
+    .destination {
+      background-image: url('assets/destination/background-destination-tablet.jpg')
     }
 }
 
 @media (min-width: 1025px) {
-    body {
+    .index {
 	    background-image: url('assets/home/background-home-desktop.jpg');
+   }
+   .destination {
+     background-image: url('assets/destination/background-destination-desktop.jpg')
    }
 }
 
