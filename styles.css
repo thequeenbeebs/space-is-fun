@@ -14,6 +14,9 @@ body {
     .destination {
       background-image: url('assets/destination/background-destination-mobile.jpg')
     }
+    .crew {
+      background-image: url('assets/crew/background-crew-mobile.jpg')
+    }
 }
 
 @media (min-width: 481px) and (max-width: 1024px) {
@@ -22,6 +25,9 @@ body {
     }
     .destination {
       background-image: url('assets/destination/background-destination-tablet.jpg')
+    }
+    .crew {
+      background-image: url('assets/crew/background-crew-tablet.jpg')
     }
 }
 
@@ -32,6 +38,9 @@ body {
    .destination {
      background-image: url('assets/destination/background-destination-desktop.jpg')
    }
+   .crew {
+     background-image: url('assets/crew/background-crew-desktop.jpg')
+   }
 }
 
 h1 {
@@ -39,6 +48,7 @@ h1 {
   font-size: 150px;
   text-transform: uppercase;
   margin: 0;
+  font-weight: 400;
 }
 
 h2 {
@@ -54,12 +64,17 @@ h3 {
   font-family: 'Bellefair';
   font-size: 56px;
   text-transform: uppercase;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 25px;
 }
 
 h4 {
   font-family: 'Bellefair';
   font-size: 32px;
   text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 10px;
 }
 
 h5 {
@@ -110,6 +125,14 @@ p {
   letter-spacing: 2px;
   line-height: 30px;
 }
+
+/* li {
+  float: left;
+  font-size: 45px;
+  margin-right: 40px;
+  color: rgb(255, 255, 255);
+  color: rgba(255, 255, 255, 0.1);
+} */
 
 .purple {
   color: #D0D6F9;
@@ -222,4 +245,38 @@ p {
   position: absolute;
   left: 250px;
   bottom: 100px;
+}
+
+.crew-text {
+  width: 35%;
+  margin-left: 150px;
+  margin-top: 150px;
+}
+
+.crew-text p {
+  margin-bottom: 75px;
+  width: 80%;
+}
+
+.crew-img {
+  position: absolute;
+  top: 200px;
+  left: 60%;
+}
+
+.dot {
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+  color: rgba(255, 255, 255, 0.1);
+  margin-left: 0;
+}
+
+.dot:hover{
+  color: rgb(255, 255, 255);
+  color: rgba(255, 255, 255, 0.5);
+  border-bottom: none;
+}
+
+.active-circle {
+  color: #FFFFFF;
 }
