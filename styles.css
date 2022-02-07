@@ -12,10 +12,13 @@ body {
         background-image: url('assets/home/background-home-mobile.jpg');
     }
     .destination {
-      background-image: url('assets/destination/background-destination-mobile.jpg')
+      background-image: url('assets/destination/background-destination-mobile.jpg');
     }
     .crew {
-      background-image: url('assets/crew/background-crew-mobile.jpg')
+      background-image: url('assets/crew/background-crew-mobile.jpg');
+    }
+    .technology {
+      background-image: url('assets/technology/background-technology-mobile');
     }
 }
 
@@ -29,6 +32,9 @@ body {
     .crew {
       background-image: url('assets/crew/background-crew-tablet.jpg')
     }
+    .technology {
+      background-image: url('assets/technology/background-technology-tablet');
+    }
 }
 
 @media (min-width: 1025px) {
@@ -40,6 +46,9 @@ body {
    }
    .crew {
      background-image: url('assets/crew/background-crew-desktop.jpg')
+   }
+   .technology {
+     background-image: url('assets/technology/background-technology-desktop.jpg');
    }
 }
 
@@ -125,15 +134,6 @@ p {
   letter-spacing: 2px;
   line-height: 30px;
 }
-
-/* li {
-  float: left;
-  font-size: 45px;
-  margin-right: 40px;
-  color: rgb(255, 255, 255);
-  color: rgba(255, 255, 255, 0.1);
-} */
-
 .purple {
   color: #D0D6F9;
 }
@@ -283,4 +283,22 @@ p {
 
 .active-circle {
   color: #FFFFFF;
+}
+
+.numbers {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 75px;
+  border: solid rgba(255, 255, 255, 0.5) 1px;
+}
+
+.numbers:hover {
+  border-color: #FFFFFF;
+}
+
+.active-num {
+  background-color: #FFFFFF;
+  color: #0B0D17;
 }
