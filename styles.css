@@ -121,7 +121,7 @@ a {
   color: inherit;
 }
 
-a:hover {
+.nav-link:hover {
   border-bottom-color: rgb(255, 255, 255);
   border-bottom-color: rgba(255, 255, 255, 0.5);
   border-bottom-style: solid;
