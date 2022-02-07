@@ -302,3 +302,21 @@ p {
   background-color: #FFFFFF;
   color: #0B0D17;
 }
+
+.tech-body {
+  margin-left: 150px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.tech-text {
+  position: absolute;
+  top: 315px;
+  left: 325px;
+}
+
+.tech-paragraph {
+  width: 35%;
+}
