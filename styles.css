@@ -305,6 +305,7 @@ p {
 
 .tech-body {
   margin-left: 150px;
+  margin-top: 150px;
 }
 
 .uppercase {
@@ -313,10 +314,17 @@ p {
 
 .tech-text {
   position: absolute;
-  top: 315px;
+  top: 375px;
   left: 325px;
 }
 
 .tech-paragraph {
   width: 35%;
+  margin-bottom: 150px;
+}
+
+.tech-image {
+  position: absolute;
+  right: 0;
+  top: 250px;
 }
