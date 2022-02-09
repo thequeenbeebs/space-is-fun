@@ -22,6 +22,21 @@ body {
     .technology {
       background-image: url('assets/technology/background-technology-mobile.jpg');
     }
+    .logo {
+      margin: 25px;
+    }
+    .nav-hr {
+      display: none;
+    }
+    .links {
+      display: none;
+    }
+    /* HAMBURGER POSITIONING NEEDS WORK */
+    .hamburger {
+      position: absolute;
+      right: 0;
+      margin: 40px;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 1024px) {
@@ -54,6 +69,9 @@ body {
     }
     .nav-link {
       padding-bottom: 30px;
+    }
+    .hamburger {
+      display: none;
     }
 }
 
@@ -89,6 +107,9 @@ body {
    .bold {
      font-weight: 700;
      margin-right: 5px;
+   }
+   .hamburger {
+     display: none;
    }
 }
 
