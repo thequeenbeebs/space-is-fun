@@ -84,7 +84,7 @@ body {
     }
     .subtitle {
       margin-left: 30px;
-      margin-bottom: 100px;
+      margin-bottom: 50px;
     }
     .sub-nav-text {
       margin: 0 auto 50px;
@@ -95,6 +95,7 @@ body {
     .planet-img {
       margin: 0 auto 50px;
       display: block;
+      width: 45%;
     }
     .right {
       float: right;
