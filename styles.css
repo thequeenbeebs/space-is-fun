@@ -82,6 +82,28 @@ body {
     .explore {
       margin: 0 auto;
     }
+    .subtitle {
+      margin-left: 30px;
+      margin-bottom: 100px;
+    }
+    .sub-nav-text {
+      margin: 0 auto 50px;
+      padding-bottom: 100px;
+      text-align: center;
+      width: 75%;
+    }
+    .planet-img {
+      margin: 0 auto 50px;
+      display: block;
+    }
+    .right {
+      float: right;
+      margin-right: 100px;
+    }
+    .left {
+      float: left;
+      margin-left: 100px;
+    }
 }
 
 @media (min-width: 1025px) {
@@ -131,6 +153,25 @@ body {
      position: absolute;
      top: 450px;
      left: 70%;
+   }
+   .subtitle {
+     margin-left: 150px;
+     margin-bottom: 100px;
+   }
+   .sub-nav-text {
+     position: absolute;
+     top: 300px;
+     left: 60%;
+     width: 30%;
+     padding-bottom: 100px;
+   }
+   .planet-img {
+     margin-left: 200px;
+   }
+   .right {
+     position: absolute;
+     left: 250px;
+     bottom: 100px;
    }
 }
 
@@ -250,19 +291,6 @@ p {
   box-shadow: 0 0 0 50px rgba(255, 255, 255, 0.2);
 }
 
-.subtitle {
-  margin-left: 150px;
-  margin-bottom: 100px;
-}
-
-.sub-nav-text {
-  position: absolute;
-  top: 300px;
-  left: 60%;
-  width: 30%;
-  padding-bottom: 100px;
-}
-
 .tabs {
   color: #D0D6F9;
   font-family: 'Barlow Condensed';
@@ -279,18 +307,8 @@ p {
   border-bottom-width: 2px;
 }
 
-.planet-img {
-  margin-left: 200px;
-}
-
 .destination-text {
   margin-bottom: 45px;
-}
-
-.right {
-  position: absolute;
-  left: 250px;
-  bottom: 100px;
 }
 
 .crew-text {
