@@ -84,9 +84,10 @@ body {
     }
     .subtitle {
       margin-left: 50px;
-      margin-bottom: 50px;
+      margin-top: 25px;
+      margin-bottom: 25px;
     }
-    .sub-nav-text {
+    .sub-nav-text{
       margin: 0 auto 50px;
       padding-bottom: 100px;
       text-align: center;
@@ -97,6 +98,15 @@ body {
       display: block;
       width: 45%;
     }
+    .crew-text{
+      margin: 0 auto;
+      text-align: center;
+      width: 75%;
+    }
+    .crew-img {
+      margin: 0 auto;
+      display: block;
+    }
     .right {
       float: right;
       margin-right: 100px;
@@ -104,12 +114,6 @@ body {
     .left {
       float: left;
       margin-left: 100px;
-    }
-    .crew-text {
-      margin: 0 auto 50px;
-      padding-bottom: 100px;
-      text-align: center;
-      width: 75%;
     }
 }
 
