@@ -53,7 +53,7 @@ body {
       background-image: url('assets/technology/background-technology-tablet.jpg');
     }
     .logo {
-      margin: 30px;
+      margin: 30px 50px;
     }
     .nav-hr {
       display: none;
@@ -83,7 +83,7 @@ body {
       margin: 0 auto;
     }
     .subtitle {
-      margin-left: 30px;
+      margin-left: 50px;
       margin-bottom: 50px;
     }
     .sub-nav-text {
