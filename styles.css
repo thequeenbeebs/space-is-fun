@@ -115,6 +115,23 @@ body {
       float: left;
       margin-left: 100px;
     }
+    .tech-body {
+      margin-top: 55%;
+    }
+    .numbers {
+      display: inline-block;
+      margin: 10px;
+    }
+    .tech-text {
+      text-align: center;
+    }
+    .tech-paragraph {
+      width: 65%;
+      margin: 0 auto;
+    }
+    .all-numbers {
+      text-align: center;
+    }
 }
 
 @media (min-width: 1025px) {
@@ -200,6 +217,19 @@ body {
    }
    #hurley {
      top: 200px;
+   }
+   .tech-body {
+     margin-left: 150px;
+     margin-top: 150px;
+   }
+   .tech-text {
+     position: absolute;
+     top: 375px;
+     left: 325px;
+   }
+   .tech-paragraph {
+     width: 35%;
+     margin-bottom: 150px;
    }
 }
 
@@ -374,24 +404,8 @@ p {
   color: #0B0D17;
 }
 
-.tech-body {
-  margin-left: 150px;
-  margin-top: 150px;
-}
-
 .uppercase {
   text-transform: uppercase;
-}
-
-.tech-text {
-  position: absolute;
-  top: 375px;
-  left: 325px;
-}
-
-.tech-paragraph {
-  width: 35%;
-  margin-bottom: 150px;
 }
 
 .tech-image {
